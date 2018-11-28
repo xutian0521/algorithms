@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithmlearning", "Algorithmlearning\Algorithmlearning.csproj", "{33A2D3DA-9295-413D-B7CD-ED5844D449E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithmlearning", "Algorithmlearning\Algorithmlearning.csproj", "{33A2D3DA-9295-413D-B7CD-ED5844D449E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testlib", "testlib\testlib.csproj", "{29A788EB-B039-4D2C-96D6-F6A6ED4CB340}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree", "Tree\Tree.csproj", "{A20D71F7-45DC-4239-8231-819461E6D33D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree", "Tree\Tree.csproj", "{A20D71F7-45DC-4239-8231-819461E6D33D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "common", "common\common.csproj", "{BE3B9A6C-4511-4130-9D2A-08C699261681}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "common", "common\common.csproj", "{BE3B9A6C-4511-4130-9D2A-08C699261681}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{33A2D3DA-9295-413D-B7CD-ED5844D449E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,18 +31,6 @@ Global
 		{33A2D3DA-9295-413D-B7CD-ED5844D449E2}.Release|x64.Build.0 = Release|Any CPU
 		{33A2D3DA-9295-413D-B7CD-ED5844D449E2}.Release|x86.ActiveCfg = Release|Any CPU
 		{33A2D3DA-9295-413D-B7CD-ED5844D449E2}.Release|x86.Build.0 = Release|Any CPU
-		{29A788EB-B039-4D2C-96D6-F6A6ED4CB340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29A788EB-B039-4D2C-96D6-F6A6ED4CB340}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29A788EB-B039-4D2C-96D6-F6A6ED4CB340}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{29A788EB-B039-4D2C-96D6-F6A6ED4CB340}.Debug|x64.Build.0 = Debug|Any CPU
-		{29A788EB-B039-4D2C-96D6-F6A6ED4CB340}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{29A788EB-B039-4D2C-96D6-F6A6ED4CB340}.Debug|x86.Build.0 = Debug|Any CPU
-		{29A788EB-B039-4D2C-96D6-F6A6ED4CB340}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29A788EB-B039-4D2C-96D6-F6A6ED4CB340}.Release|Any CPU.Build.0 = Release|Any CPU
-		{29A788EB-B039-4D2C-96D6-F6A6ED4CB340}.Release|x64.ActiveCfg = Release|Any CPU
-		{29A788EB-B039-4D2C-96D6-F6A6ED4CB340}.Release|x64.Build.0 = Release|Any CPU
-		{29A788EB-B039-4D2C-96D6-F6A6ED4CB340}.Release|x86.ActiveCfg = Release|Any CPU
-		{29A788EB-B039-4D2C-96D6-F6A6ED4CB340}.Release|x86.Build.0 = Release|Any CPU
 		{A20D71F7-45DC-4239-8231-819461E6D33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A20D71F7-45DC-4239-8231-819461E6D33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A20D71F7-45DC-4239-8231-819461E6D33D}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -72,5 +55,11 @@ Global
 		{BE3B9A6C-4511-4130-9D2A-08C699261681}.Release|x64.Build.0 = Release|Any CPU
 		{BE3B9A6C-4511-4130-9D2A-08C699261681}.Release|x86.ActiveCfg = Release|Any CPU
 		{BE3B9A6C-4511-4130-9D2A-08C699261681}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9F438E0-021B-4F21-9B41-8A1ADC198E14}
 	EndGlobalSection
 EndGlobal
